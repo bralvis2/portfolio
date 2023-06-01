@@ -1,0 +1,147 @@
+.navbar {
+    position: sticky;
+    top: 0px;
+}
+
+nav {
+    background-color: var(--dark-g-2);
+    color: var(--dark);
+    font-size: 1.35rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    padding: 15px 0px;
+}
+
+.nav-links a {
+    color: var(--dark);
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: var(--light-g-2);
+}
+
+.nav-social-links {
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--med-g);
+    padding: 10px 0px;
+}
+
+.nav-social-links ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+}
+
+.social-icons svg {
+    width: 25px;
+}
+
+.social-icons:hover{
+    fill: var(--light-g-2);
+}
+
+
+.nav-btn {
+    height: fit-content;
+    background: transparent;
+    border: none;
+    outline: none;
+    display: none;
+}
+
+header {
+    text-align: center;
+    background-color: var(--dark-green);
+}
+
+header img {
+    height: 175px;
+}
+
+@media screen and (max-width: 950px ) {
+
+    .nav-links {
+        width: 55%;
+    }
+
+    .nav-social-links {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header img {
+        height: 125px;
+    }
+
+    .navbar {
+        position: fixed;
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    nav {
+        flex-direction: column-reverse;
+    }
+
+    .nav-social-links {
+        position: fixed;
+        top: 0;
+        left: 0%;
+        width: 100%;
+    }
+
+	.nav-btn {
+        display: flex;
+        position: fixed;
+        top: 100px;
+        right: 40px;
+    }
+
+    header {
+        position: fixed;
+        top: 53px;
+        width: 100%;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-links-mobile {
+        flex-direction: column;
+        width: 100%;
+        padding: 15px;
+        position: absolute;
+        top: 180px;
+        background-color: var(--med-g);
+    }
+
+    .nav-links-mobile a {
+        text-decoration: none;
+        color: var(--dark);
+        line-height: 2rem;
+    }
+
+    .nav-links-mobile a:hover {
+        color: var(--light-g-2);
+    }
+
+}

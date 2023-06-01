@@ -1,3 +1,10 @@
+#Brenda Alvis Web Developer
+
+## COMING SOON
+
+## CREDITS 
+<!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
