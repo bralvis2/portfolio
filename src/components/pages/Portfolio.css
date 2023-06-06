@@ -1,4 +1,122 @@
 .portfolio {
-    background-color: var(--med-g);
-    height: 800px;
+    background-color: var(--light-g);
+    padding-bottom: 50px;
+}
+
+.portfolio-intro {
+    text-align: center;
+    padding: 50px;
+}
+
+.portfolio-intro h1 {
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+    color: var(--dark-green);
+}
+
+.portfolio-intro p {
+    font-size: 1.35rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Projects Section */
+.project-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.projects {
+    text-align: center;
+}
+
+.p-img-container {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    transition: .3s;
+}
+
+.p-img-container img {
+    height: 100%;
+    transition: 1s;
+}
+
+.p-img-container img:hover {
+    opacity: .5;
+}
+
+.projects h2 {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+.project-links {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.project-links a {
+    margin: 0px 20px;
+    font-size: 1.35rem;
+    color: var(--dark);
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    transition: .3s;
+}
+
+.project-links a:hover {
+    color: var(--light-g-2);
+}
+
+.project-links p {
+    font-size: 1.35rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 1300px) {
+    .p-img-container {
+        height: 300px;
+        transition: .3s;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .p-img-container {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .project-container {
+        flex-direction: column;
+    }
+
+    .projects {
+        padding-bottom: 30px;
+    }
+
+    .p-img-container {
+        height: auto;
+        width: 90%;
+        margin: auto;
+    }
+
+    .p-img-container img {
+        height: auto;
+        width: 100%;
+    }
+
+    .portfolio {
+        background-color: var(--light-g);
+        padding-bottom: 20px;
+    }
+
+    .p-img-container img:hover {
+        opacity: 1;
+    }
 }
