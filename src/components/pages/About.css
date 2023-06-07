@@ -1,4 +1,4 @@
-.about {
+.about-container {
     background-color: var(--light-g-2);
     display: flex;
     justify-content: space-evenly;
@@ -32,8 +32,17 @@
     line-height: 1.75rem;
 }
 
+.wave {
+    width: 100%;
+    background-color: var(--light-g);
+}
+
+.wave img {
+    width: 100%;
+}
+
 @media screen and (max-width: 700px) {
-    .about {
+    .about-container {
         padding-top: 200px;
         flex-direction: column;
     }
