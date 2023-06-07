@@ -35,7 +35,7 @@ class Resume extends Component {
                         contributing to the development of engaging web applications</p>
                 </div>
                 <div className='resume-content-container'>
-                    <div className='resume-sections'>
+                    <div className='resume-sections skills-container'>
                         <div className='skills'>
                             <h2>Skills</h2>
                             <hr />
@@ -91,8 +91,8 @@ class Resume extends Component {
                             <img src={Decor1} />
                         </div>
                     </div>
-                    <div className='resume-sections'>
-                        <div className='decor-img'>
+                    <div className='resume-sections experience-container'>
+                        <div className='decor-img decor-img-2'>
                             <img src={Decor2} />
                         </div>
                         <div className='experience'>
@@ -136,7 +136,7 @@ class Resume extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className='resume-sections'>
+                    <div className='resume-sections edu-container'>
                         <div className='education'>
                             <h2>Education</h2>
                             <hr />

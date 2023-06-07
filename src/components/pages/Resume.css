@@ -129,6 +129,10 @@
     padding: 20px 0px;
 }
 
+.education-details {
+    margin-right: 15px;
+}
+
 .education-details h4 {
     font-family: 'Montserrat', sans-serif;
 }
@@ -147,4 +151,76 @@
     padding: 20px;
     font-size: 1.25rem;
     line-height: 1.75rem;
+}
+
+@media screen and (max-width: 1220px) {
+    .work-details {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .experience-container {
+        flex-direction: column;
+    }
+
+    .decor-img-2 {
+        height: 250px;
+    }
+
+    .decor-img-3 {
+        height: 125px;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    .resume-intro {
+        text-align: center;
+        padding: 0px;
+    }
+
+    .skills-container {
+        flex-direction: column-reverse;
+    }
+
+    .skills {
+        width: 90%;
+    }
+
+    .decor-img {
+        height: 250px;
+        padding: 20px 0px;
+    }
+
+
+    .work-experience {
+        flex-direction: column;
+    }
+
+    .work-details {
+        width: 100%;
+    }
+
+    .edu-container {
+        flex-direction: column-reverse;
+    }
+
+    .education {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .education-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .education-details {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
 }
