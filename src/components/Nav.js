@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import Logo from '../brand-images/logo.png';
-import Menu from './SVG-icons/menu.svg';
-import Close from './SVG-icons/close.svg'
 
 import './Nav.css'
 

@@ -1,4 +1,150 @@
 .resume {
     background-color: var(--light-g-2);
-    height: 800px;
+    padding: 20px;
+}
+
+.resume-intro {
+    text-align: center;
+    padding: 50px;
+}
+
+
+.resume-intro h1 {
+    font-size: 2.5rem;
+    padding-bottom: 15px;
+    color: var(--med-g);
+}
+
+.resume-intro p {
+    font-size: 1.35rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.75rem;
+}
+
+/* Resume Content */
+
+.resume-sections {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+/* Skills */
+
+.skills {
+    width: 60%;
+}
+
+.skills h2,
+.experience h2,
+.education h2,
+.interests h2 {
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+.skills h3 {
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding: 15px;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none
+}
+
+.skills-list li {
+    line-height: 2rem;
+}
+
+.skills-list img {
+    width: 75px;
+    padding: 0px 5px;
+}
+
+.non-technical-skills {
+    list-style-type: circle;
+    font-size: 1.5rem;
+    padding: 15px;
+    font-weight: 200;
+    line-height: 2rem;
+}
+
+.decor-img {
+    height: 350px;
+}
+
+.decor-img img {
+    height: 100%;
+}
+
+.decor-img-3 {
+    height: 250px;
+}
+
+.decor-img-3 img {
+    height: 100%;
+}
+
+/* Experience */
+
+.work-experience {
+    padding: 15px;
+    display: flex;
+}
+
+.work-details {
+    width: 80%;
+}
+
+.work-dates {
+    width: 175px;
+    font-size: 1.15rem;
+    padding-top: 10px;
+    color: var(--med-g);
+}
+
+.work-experience h3 {
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding: 5px 0px;
+}
+
+/* Education  */
+
+.education {
+    width: 65%;
+}
+
+.education-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+}
+
+.education-details h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.education-details img {
+    width: 30px;
+}
+
+/* Interests */
+.interests {
+    width: 90%;
+    margin: auto;
+}
+
+.interests p {
+    padding: 20px;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
 }
