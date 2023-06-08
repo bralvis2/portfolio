@@ -1,18 +1,25 @@
 .contact {
+    background-image: url('../site-images/custom-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: var(--light-g);
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact h1 {
     font-size: 3rem;
     color: var(--dark-green);
+    padding-top: 275px;
 }
 
-.wave-3 {
+/* .wave-3 {
     background-color: var(--light-g);
     width: 100%;
 }
 
 .wave-3 img {
     width: 100%;
-}
+} */
