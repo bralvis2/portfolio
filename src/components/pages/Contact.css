@@ -1,4 +1,18 @@
 .contact {
     background-color: var(--light-g);
-    height: 800px;
+    text-align: center;
+}
+
+.contact h1 {
+    font-size: 3rem;
+    color: var(--dark-green);
+}
+
+.wave-3 {
+    background-color: var(--light-g);
+    width: 100%;
+}
+
+.wave-3 img {
+    width: 100%;
 }

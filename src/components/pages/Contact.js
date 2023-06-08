@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import ContactForm from '../pages/Form/Form'
+import Wave from '../site-images/wave.png'
 
 import '../pages/Contact.css'
 
@@ -6,7 +8,11 @@ class Contact extends Component {
     render() {
         return (
             <div className='contact'>
-                <h2 id='contact'>Contact</h2>
+                <div className='wave-3'>
+                    <img src={Wave} alt='wave decoration'/>
+                </div>
+                <h1 id='contact'>Let's Connect!</h1>
+                <ContactForm />
             </div>
         )
     }

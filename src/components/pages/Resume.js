@@ -92,9 +92,9 @@ class Resume extends Component {
                         </div>
                     </div>
                     <div className='resume-sections experience-container'>
-                        <div className='decor-img decor-img-2'>
+                        {/* <div className='decor-img decor-img-2'>
                             <img src={Decor2} />
-                        </div>
+                        </div> */}
                         <div className='experience'>
                             <h2>Experience</h2>
                             <hr />
@@ -162,7 +162,7 @@ class Resume extends Component {
                             </div>
                         </div>
                         <div className='decor-img-3'>
-                            <img src={Decor3} />
+                            <img src={Decor2} />
                         </div>
                     </div>
                     <div className='interests'>

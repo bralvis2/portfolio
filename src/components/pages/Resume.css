@@ -5,14 +5,14 @@
 
 .resume-intro {
     text-align: center;
-    padding: 50px;
+    padding: 25px 50px 50px 50px;
 }
 
 
 .resume-intro h1 {
     font-size: 2.5rem;
     padding-bottom: 15px;
-    color: var(--med-g);
+    font-weight: 100;
 }
 
 .resume-intro p {
@@ -169,7 +169,7 @@
     }
 
     .decor-img-3 {
-        height: 125px;
+        height: 200px;
     }
 
 }
@@ -180,12 +180,16 @@
         padding: 0px;
     }
 
+    .resume-sections {
+        width: 100%;
+    }
+
     .skills-container {
         flex-direction: column-reverse;
     }
 
     .skills {
-        width: 90%;
+        width: 95%;
     }
 
     .decor-img {
@@ -204,10 +208,11 @@
 
     .edu-container {
         flex-direction: column-reverse;
+        width: 100%;
     }
 
-    .education {
-        width: 90%;
+    .interests {
+        width: 100%;
     }
 }
 

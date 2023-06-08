@@ -1,11 +1,10 @@
 .portfolio {
     background-color: var(--light-g);
-    padding-bottom: 50px;
 }
 
 .portfolio-intro {
     text-align: center;
-    padding: 50px;
+    padding: 0px 50px 50px 50px;
 }
 
 .portfolio-intro h1 {
@@ -20,11 +19,21 @@
     line-height: 1.75rem;
 }
 
+.wave-2 {
+    background-color: #E0E3DE;
+    width: 100%;
+}
+
+.wave-2 img {
+    width: 100%;
+}
+
 /* Projects Section */
 .project-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .projects {
@@ -93,6 +102,11 @@
 }
 
 @media screen and (max-width: 660px) {
+    .portfolio-intro {
+        padding: 20px;
+        padding-bottom: 30px;
+    }
+
     .project-container {
         flex-direction: column;
     }
@@ -114,7 +128,6 @@
 
     .portfolio {
         background-color: var(--light-g);
-        padding-bottom: 20px;
     }
 
     .p-img-container img:hover {

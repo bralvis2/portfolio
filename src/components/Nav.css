@@ -91,7 +91,6 @@ header img {
     }
 
     .navbar {
-        position: fixed;
         display: flex;
         flex-direction: column-reverse;
         width: 100%;
@@ -102,21 +101,17 @@ header img {
     }
 
     .nav-social-links {
-        position: fixed;
-        top: 0;
-        left: 0%;
         width: 100%;
     }
 
 	.nav-btn {
         display: flex;
-        position: fixed;
-        top: 100px;
+        position: absolute;
+        top: 50px;
         right: 40px;
     }
 
     header {
-        position: fixed;
         top: 53px;
         width: 100%;
     }

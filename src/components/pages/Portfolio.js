@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Uplift from '../site-images/uplift.png'
 import Beauty from '../site-images/ajbeauty.png'
+import Wave2 from '../site-images/wave-2.png'
 
 import '../pages/Portfolio.css'
 
@@ -58,6 +59,9 @@ class Portfolio extends Component {
                                 view the code</a>
                         </div>
                     </div>
+                </div>
+                <div className='wave-2'>
+                    <img src={Wave2} alt='wave decoration'/>
                 </div>
             </div>
         )
