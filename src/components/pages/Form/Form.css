@@ -42,11 +42,6 @@ input:focus, textarea:focus {
     outline-color: var(--med-g);
 }
 
-input[type="radio"]:checked{
-    accent-color: var(--med-g);
-}
-
-
 .form-button {
     border-radius: 15px;
     width: 200px;

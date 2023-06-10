@@ -109,6 +109,10 @@ header img {
         position: absolute;
         top: 50px;
         right: 40px;
+        color: var(--light-g-2);
+        background-color: var(--dark-green);
+        border: none;
+        outline: none;
     }
 
     header {
