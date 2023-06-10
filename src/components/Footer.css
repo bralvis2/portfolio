@@ -82,6 +82,7 @@ footer ul {
 .credit {
     text-align: center;
     padding: 10px;
+    color: var(--light-g);
 }
 
 @media screen and (max-width: 500px) {
