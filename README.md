@@ -1,77 +1,48 @@
-#Brenda Alvis Web Developer
+# 
+<p align="center">
+    <a href='https://bralvis2.github.io/portfolio/' target='_blank'>
+        <img src="./src/brand-images/logo.png" alt="animated" width='300px'/>
+    </a>
+</p>
 
-## COMING SOON
+<p align="center">
+  <a href="#About">About</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#credits">Credits</a> •
+  <a href="#license">License</a>
+</p>
 
-## CREDITS 
-<!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+<p align="center">
+    <a href='https://bralvis2.github.io/portfolio/' target='_blank' >
+        <img src="./src/brand-images/portfolio.gif" alt="animated" />
+    </a>
+</p>
 
-# Getting Started with Create React App
+## About
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my work portfolio! Here, I aim to showcase my expertise in web development, combining both design and technical skills to create engaging and functional websites. With a passion for crafting visually appealing and user-friendly interfaces, I bring a unique blend of creativity and technical proficiency to my work.
 
-## Available Scripts
+In addition to my design prowess, I possess a strong foundation in various web development technologies and programming languages. I am proficient in HTML, CSS, and JavaScript, enabling me to build responsive and interactive web pages. I also have experience with front-end frameworks like Bootstrap and libraries like jQuery, and React.js empowering me to streamline development processes and enhance user experiences.
 
-In the project directory, you can run:
+If you are interested in collaborating on a web development project or have any inquiries, please feel free to reach out. I have provided my contact information, including email and social media profiles, to make it easy to get in touch. I am excited to discuss how I can contribute to your web development needs and bring your ideas to life.
 
-### `npm start`
+## How To Use
+- [Deployed Website](https://bralvis2.github.io/portfolio/)
+<br>
+To access this website, you can click on the link above and naviate the site using the navigation bar. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Credits
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This website uses the following open source packages:
 
-### `npm test`
+- [React](https://reactjs.org/)
+- [Font Awesome CDN](https://cdn.fontawesome.com/): Icon accessibility and faster loading.
+- [Google Fonts](https://fonts.google.com/): Fonts
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## License
 
-### `npm run build`
+MIT
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> GitHub [@bralvis2](https://github.com/bralvis2) &nbsp;&middot;&nbsp;
