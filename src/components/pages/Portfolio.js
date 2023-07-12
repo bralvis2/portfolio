@@ -42,7 +42,7 @@ class Portfolio extends Component {
                     </div>
                     <div className='projects'>
                         <div className='p-img-container'>
-                            <a href='https://bralvis2.github.io/avielle-jay-beauty/#home'
+                            <a href='https://aviellejaybeauty.com/'
                                 target='_blank'>
                                 <img src={Beauty}
                                     alt='home page of avielle jay beauty website' />
